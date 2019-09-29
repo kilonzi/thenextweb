@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Mija;
+    src: url("https://d33wubrfki0l68.cloudfront.net/ac1833dce386eb55d8e105248ef9126622e8e3e9/03f2d/fonts/mijaregular/mija_regular-webfont.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/0e0910ceb0e2f9adffd9db31665dafa4ec5c10ff/7214b/fonts/mijaregular/mija_regular-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: Mija;
+    src: url("https://d33wubrfki0l68.cloudfront.net/94691bb5497213e09480b17ef68446d2b85667e9/d58ec/fonts/mijabold/mija_bold-webfont.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/1d162cc7792bc1f04919a5a344b4082087b9e012/855b4/fonts/mijabold/mija_bold-webfont.woff") format("woff");
+    font-weight: bold;
+}
+
+html,
+body {
+    font-family: Mija, sans-serif;
+    width: 100%;
+    font-size: 100%;
+}
+
+
+/* MOBILE NAVIGATION */
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+    background: linear-gradient(to right, #DA1B7C, #F84221);
+    min-width: 100px;
+    width: fit-content;
+    height: 50px;
+    justify-content: center;
+}
+
+.logo>img {
+    width: 80px;
+    zoom: 80%;
+}
+
+.right-icons {
+    float: right;
+    position: relative;
+    right: 10px;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.right-icons>i {
+    width: 20px;
+    padding: 10px;
+    color: gray;
+}
+
+.right-icons>i:first-child {
+    transform: rotate(90deg)
+}
+
+.featured,
+.latest {
+    width: 100%;
+    justify-content: center;
+}
+
+.featured-article,
+.latest-article,
+.funding-article {
+    display: block;
+    height: 100px;
+    color: #F84221;
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.section-header {
+    font-weight: 900;
+    font-size: 1em;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: transparent;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 16em;
+}
+
+.social {
+    background-color: #131313;
+    height: 62%;
+}
+
+.copyright {
+    background-color: #000000;
+    height: 38%;
+}
