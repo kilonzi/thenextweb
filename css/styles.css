@@ -36,10 +36,8 @@
         border: 1px solid red;
     }
     .links {
-        /* visibility: hidden; */
         display: none;
     }
-    /* NAVIGATION */
     header {
         width: 100%;
         position: sticky;
@@ -140,7 +138,6 @@
     .right-icons>i:nth-child(2) {
         display: none;
     }
-    /* NAVIGATION */
     header {
         width: 100%;
         position: sticky;
@@ -241,7 +238,6 @@
     .right-icons>i:nth-child(2) {
         display: none;
     }
-    /* NAVIGATION */
     header {
         width: 100%;
         position: sticky;
