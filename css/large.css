@@ -145,13 +145,13 @@
         background-color: white;
     }
     .latest-article>img {
-        width: auto;
+        max-width: 250px;
         height: 150px;
     }
     .latest-article>a {
         color: white;
         text-decoration: none;
-        padding: 1px;
+        padding: 1px 0;
     }
     .latest-article>a>h3 {
         color: #000;
