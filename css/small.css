@@ -70,7 +70,6 @@
         display: flex;
         align-items: center;
         flex-direction: row;
-        border: 2px solid brown;
         justify-content: space-between;
     }
 
