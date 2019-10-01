@@ -78,13 +78,13 @@
         display: flex;
         justify-content: center;
     }
+    .right-icons>i:first-child {
+        transform: rotate(90deg);
+    }
     .right-icons>i {
         width: 20px;
         padding: 10px;
         color: gray;
-    }
-    .right-icons>i:first-child {
-        transform: rotate(90deg)
     }
     .menu-links {
         display: flex;
@@ -135,7 +135,7 @@
     }
     .category>ul {
         padding: 25px;
-        list-style-image: url("/images/bullet.svg")
+        list-style-image: url("/images/bullet.svg");
     }
     .category>ul>li {
         padding: 5px 0;
@@ -151,5 +151,12 @@
     }
     .copyright>p {
         width: 80%;
+    }
+    .section-header {
+        padding: 20px;
+        color: #f42;
+        font-size: 20px;
+        font-weight: bolder;
+        margin: 10px 0;
     }
 }
