@@ -175,6 +175,7 @@ footer {
 
     .notification>p {
         padding: 10%;
+        width: 100%;
     }
 
     .content-category {
