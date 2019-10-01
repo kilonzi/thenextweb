@@ -78,13 +78,13 @@
         display: flex;
         justify-content: center;
     }
-    .right-icons>i:first-child {
-        transform: rotate(90deg);
-    }
     .right-icons>i {
         width: 20px;
         padding: 10px;
         color: gray;
+    }
+    .right-icons>i:first-child {
+        transform: rotate(90deg);
     }
     .menu-links {
         display: flex;
@@ -93,7 +93,6 @@
     .menu-links>ul {
         list-style: none;
         text-decoration-color: gray;
-        text-decoration: none;
     }
     .menu-links>ul>li {
         display: inline;
@@ -115,7 +114,6 @@
     }
     .featured-article {
         background-image: url('/images/cover1.png');
-        height: auto;
         background-size: cover;
         color: white;
         background-repeat: no-repeat;
@@ -123,7 +121,6 @@
     }
     .featured-article:nth-of-type(2) {
         background-image: url('/images/cover2.png');
-        height: auto;
         background-size: cover;
         color: white;
         background-repeat: no-repeat;

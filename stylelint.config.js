@@ -3,7 +3,7 @@
 module.exports = {
     "extends": "stylelint-config-recommended",
     "rules": {
-        "at-rule-empty-line-before": ["false", {
+        "at-rule-empty-line-before": ["never", {
             except: [
                 "blockless-after-same-name-blockless",
                 "first-nested",

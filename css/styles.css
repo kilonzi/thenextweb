@@ -12,6 +12,7 @@
 html,
 body {
     font-family: Mija, sans-serif;
+    margin: auto;
 }
 
 
@@ -69,7 +70,7 @@ footer {
 }
 
 .copyright {
-    background-color: #000000;
+    background-color: #000;
     height: 38%;
     color: white;
     display: flex;

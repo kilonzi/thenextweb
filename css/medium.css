@@ -125,13 +125,13 @@
         display: flex;
         justify-content: center;
     }
-    .right-icons>i:first-child {
-        transform: rotate(90deg);
-    }
     .right-icons>i {
         width: 20px;
         padding: 10px;
         color: gray;
+    }
+    .right-icons>i:first-child {
+        transform: rotate(90deg);
     }
     .menu-links {
         display: flex;
@@ -140,7 +140,6 @@
     .menu-links>ul {
         list-style: none;
         text-decoration-color: gray;
-        text-decoration: none;
     }
     .menu-links>ul>li {
         display: inline;
