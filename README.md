@@ -10,13 +10,15 @@ The Next Web (TNW) is an original and proudly opinionated perspectives on remark
 
 # Final Product
 
-Fair Warining: The final product will look like in the below image but the wordings might change
+Fair Warning: The final product will look like in the below image but the wordings might change
+
+***
 
 ## Mobile Version
-![The mobile version of the site](https://user-images.githubusercontent.com/9586665/65820356-660dd180-e230-11e9-8492-9261e989884a.png)
+![The mobile version of the site](https://user-images.githubusercontent.com/9586665/66007598-bea4cf00-e4bb-11e9-8174-4703c6deac89.png)
 
 ## Web Version
-![The web version of the site](https://user-images.githubusercontent.com/9586665/65820312-e4b63f00-e22f-11e9-97d1-de8c3e2c5d16.png)
+![The web version of the site](https://user-images.githubusercontent.com/9586665/66007367-c87a0280-e4ba-11e9-8309-eec88f1d731b.png)
 
 # Contribute
 To contribute: You can clone this project [https://github.com/kilonzi/thenextweb.git], make changes as you deem fit and then submit a PR request
